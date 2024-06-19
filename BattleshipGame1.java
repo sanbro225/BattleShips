@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class BattleshipGame1 {
-    private static final int GRID_SIZE = 10;
+    private static final int GRID_SIZE = 12;
     private static final char WATER = '~';
     private static final char SHIP = 'S';
     private static final char HIT = 'X';
@@ -12,7 +12,7 @@ public class BattleshipGame1 {
     private char[][] computerGrid = new char[GRID_SIZE][GRID_SIZE];
     private boolean[][] computerShips = new boolean[GRID_SIZE][GRID_SIZE];
 
-    private int[] shipSizes = {5, 4, 3, 3, 2}; // Example ship sizes (carrier, battleship, cruiser, submarine, destroyer)
+    private int[] shipSizes = {5, 4, 3, 3, 2}; //ship sizes 
     private Scanner scanner = new Scanner(System.in);
     private Random random = new Random();
 

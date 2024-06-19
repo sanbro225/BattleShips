@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Battleship
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=board
+comment2.target=void\ initializeBoard(char[][])
+comment3.params=ships\ board\ scanner
+comment3.target=void\ placePlayerShips(boolean[][],\ char[][],\ java.util.Scanner)
+comment4.params=ships\ numberOfShips
+comment4.target=void\ placeShipsRandomly(boolean[][],\ int)
+comment5.params=board
+comment5.target=void\ printBoard(char[][])
+comment6.params=board
+comment6.target=void\ printBoardHidden(char[][])
+numComments=7

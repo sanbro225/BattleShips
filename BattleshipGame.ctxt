@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BattleshipGame
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ initializeGrid()
+comment3.params=
+comment3.target=void\ printGrid()
+comment4.params=
+comment4.target=void\ placeShips()
+comment5.params=x\ y\ size\ direction
+comment5.target=boolean\ canPlaceShip(int,\ int,\ int,\ char)
+comment6.params=x\ y\ size\ direction
+comment6.target=void\ placeShip(int,\ int,\ int,\ char)
+numComments=7
